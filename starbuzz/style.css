@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto:wght@100;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    /* setari de baza */
+}
 html {
     scroll-behavior: smooth;
 }
@@ -12,7 +18,6 @@ h1 {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #eeeeee;
-    text-align:center
 }
 a {
     color: crimson;
@@ -27,4 +32,28 @@ a:hover {
     background-color: lightskyblue;
     text-decoration-line: underline;
 }
+#contact {
+    color:firebrick;
+    font-weight: bold;
+}
+.price {
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+#menu {
+    background-color: palegreen;
+    border-style: solid;
+    border-color:seagreen orangered;
+    border-width: 3px;
+    padding: 0.5em 0.2em;
+    margin: 0em auto;
+    width: 30%;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    box-sizing: border-box;
+}
+.special {
+    color: salmon;
 }
